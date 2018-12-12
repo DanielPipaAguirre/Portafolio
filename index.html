@@ -3,65 +3,72 @@
     <head>
         <meta charset="UTF-8">
         <title>Daniel Pipa Aguirre</title>
-        <link rel="icon" type="image/png" href="images/favicon.png">
+        <!--Favicon-->
+        <link rel="icon" type="image/png" href="Images/Favicon.png">
     </head>
     <body>
        <header>
-            <figure>
-                <img src="images/logo.png" alt="Logo de Daniel Pipa">Logo
-            </figure>
+           <!--Logo-->
+           <figure>
+               <img src="Images/Logo.png" alt="Logo">
+           </figure>
+            <!--Navegación-->
             <nav>
+                <!--Enlaces-->
                 <ol>
                     <li><a href="#Portafolio">Portafolio</a></li>
                     <li><a href="#Experiencia">Experiencia</a></li>
-                    <li><a href="#Trabajemos juntos">Trabajemos juntos</a></li>
+                    <li><a href="#Contacto">Trabajemos juntos</a></li>
                 </ol>
             </nav>
        </header> 
        <section>
-           <h1>Hola! Soy <strong>Daniel Pipa</strong> <br>desarrollador 
-            <strong>Ruby</strong> 
+           <!--Titulo principal-->
+           <h1>Hola! Soy <strong>Daniel Pipa</strong> <br>Desarrollador 
+            <strong>Web</strong> y algo más!
            </h1>
-           <img src="images/hero.jpg" width="500" height="300" alt="Imagen principal">
+           <!--Imagen de Portada-->
+           <img src="Images/Hero.jpeg" alt="Hero" width="500px" height="300px">
        </section>
+       <!--Portafolio-->
        <section id="Portafolio">
            <h2>Portafolio (Proyectos destacados)</h2>
            <article>
-               <figure>
-                   <img src="images/ruby.png" alt="Imagen curso ruby" width="500">
-               </figure>
-               <h3>Carrera de Desarrollo Backend con Ruby</h3>
-               <h6>Curso de Ruby</h6>
-               <p><small><strong>Fecha:</strong> 09/11/2018</small></p>
-               <p><small><strong>Ver:</strong><a href="https://platzi.com/clases/ruby/"
-                target="_blank">Platzi-Ruby</a></small></p>
-               <p>Ruby es un lenguaje de sintaxis sencilla y poderosa, además cuenta
-                    con una gran comunidad para que construyas tus proyectos de 
-                    forma ágil. Crea aplicaciones web con Ruby on Rails, aprende 
-                    la arquitectura MVC en Ruby, maneja Active Record, el ORM de 
-                    RoR, y despliega con Heroku.</p>
+               <h3>Portafolio - Desarrollo Web Online</h3>
+               <h6>Curso de Desarrollo Web Online</h6>
+               <p><small><strong>Fecha:</strong> 01/12/2018</small></p>
+               <p><small><strong>Ver:</strong><a href="https://platzi.com/clases/html5-css3/"> Desarrollo Web</a></small></p>
+               <p>Portafolio es un proyecto de desarrollo web utilizando HTML5 y CSS3,
+                   conocimientos adquiridos en el curso de Desarrollo web Online. 
+                </p>
+                <img src="Images/Frontend.png" alt="Frontend" width="500px" height="300px">
            </article>
        </section>
+       <!--Experiencia-->
        <section id="Experiencia">
-           <h2>Más sobre mi experiencia</h2>
-           <article>
+            <h2>Más sobre mi experiencia</h2>
+            <article>
+                <!--Imagen-->
                 <figure>
-                    <img src="images/frontend.png" 
-                    alt="Imagen carrera arquitecto frontend" width="500">
+                    <img src="Images/Web.jpeg" alt="Web" width="500px" height="300px">
                 </figure>
-               <h3>Carrera de Arquitectura Frontend</h3>
-               <p>Crea sitios web responsivos y funcionales, con interfaces que 
-                   brinden las mejores experiencias de usuario. Domina HTML, CSS 
-                   y JavaScript, preprocesadores de CSS, frameworks como Bootstrap 
-                   y Foundation y Animaciones con CSS.</p>
-                <a href="https://platzi.com/arquitecto/">Arquitecto Frontend</a>
-           </article>
+                <!--Descripción-->
+                <h3>Desarrollador Web</h3>
+                <p>Puedo crear Sitios Web con secciones,
+                    imágenes, formularios y navegacion entre 
+                    secciones con HTML5. Además de agregarle estilo
+                    con CSS3. 
+                </p>
+            </article>
        </section>
-       <section id="Trabajemos juntos">
+       <!--Formulario de Contacto-->
+       <section id="Contacto">
            <form action="">
                <h3>¿Creamos algo juntos?</h3>
-               <input type="datetime" placeholder="Déjame tu email">
-                <button>Enviar</button>
+               <label for="email">Déjame tu email</label>
+               <input type="text" placeholder="Déjame tu email" id="email">      
+               <input type="submit" value="Enviar">
+               <button>Enviar</button>
            </form>
        </section>
        <footer>Footer</footer>
