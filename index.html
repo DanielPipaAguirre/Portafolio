@@ -5,24 +5,26 @@
         <title>Daniel Pipa Aguirre</title>
         <!--Favicon-->
         <link rel="icon" type="image/png" href="Images/Favicon.png">
+        <!-- estilos -->
+        <link rel="stylesheet" href="estilos.css">
     </head>
     <body>
-       <header>
+       <header class="header">
            <!--Logo-->
-           <figure>
+           <figure class="logo">
                <img src="Images/Logo.png" alt="Logo">
            </figure>
             <!--Navegación-->
-            <nav>
+            <nav class="menu">
                 <!--Enlaces-->
                 <ol>
-                    <li><a href="#Portafolio">Portafolio</a></li>
-                    <li><a href="#Experiencia">Experiencia</a></li>
-                    <li><a href="#Contacto">Trabajemos juntos</a></li>
+                    <li><a class="link" href="#Portafolio">Portafolio</a></li>
+                    <li><a class="link" href="#Experiencia">Experiencia</a></li>
+                    <li><a class="link" href="#Contacto">Trabajemos juntos</a></li>
                 </ol>
             </nav>
        </header> 
-       <section>
+       <section class="hero">
            <!--Titulo principal-->
            <h1>Hola! Soy <strong>Daniel Pipa</strong> <br>Desarrollador 
             <strong>Web</strong> y algo más!
@@ -31,30 +33,32 @@
            <img src="Images/Hero.jpeg" alt="Hero" width="500px" height="300px">
        </section>
        <!--Portafolio-->
-       <section id="Portafolio">
+       <section id="Portafolio" class="portfolio">
            <h2>Portafolio (Proyectos destacados)</h2>
-           <article>
-               <h3>Portafolio - Desarrollo Web Online</h3>
-               <h6>Curso de Desarrollo Web Online</h6>
-               <p><small><strong>Fecha:</strong> 01/12/2018</small></p>
-               <p><small><strong>Ver:</strong><a href="https://platzi.com/clases/html5-css3/"> Desarrollo Web</a></small></p>
-               <p>Portafolio es un proyecto de desarrollo web utilizando HTML5 y CSS3,
+           <article class="project">
+               <h3 class="project-title">Portafolio - Desarrollo Web Online</h3>
+               <h6 class="project-course">Curso de Desarrollo Web Online</h6>
+               <p class="project-date"><small><strong>Fecha:</strong> 01/12/2018</small></p>
+               <p class="project-url"><small><strong>Ver:</strong><a href="https://platzi.com/clases/html5-css3/"> Desarrollo Web</a></small></p>
+               <p class="project-description">Portafolio es un proyecto de desarrollo web utilizando HTML5 y CSS3,
                    conocimientos adquiridos en el curso de Desarrollo web Online. 
                 </p>
-                <img src="Images/Frontend.png" alt="Frontend" width="500px" height="300px">
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="Images/Frontend.png" alt="Frontend" width="500px" height="300px">
+                </figure>
            </article>
        </section>
        <!--Experiencia-->
        <section id="Experiencia">
             <h2>Más sobre mi experiencia</h2>
-            <article>
+            <article class="experience">
                 <!--Imagen-->
-                <figure>
-                    <img src="Images/Web.jpeg" alt="Web" width="500px" height="300px">
+                <figure class="experience-imageContainer">
+                    <img class="experiece-image" src="Images/Web.jpeg" alt="Web" width="500px" height="300px">
                 </figure>
                 <!--Descripción-->
-                <h3>Desarrollador Web</h3>
-                <p>Puedo crear Sitios Web con secciones,
+                <h3 class="experience-title">Desarrollador Web</h3>
+                <p class="experience-description">Puedo crear Sitios Web con secciones,
                     imágenes, formularios y navegacion entre 
                     secciones con HTML5. Además de agregarle estilo
                     con CSS3. 
@@ -62,8 +66,8 @@
             </article>
        </section>
        <!--Formulario de Contacto-->
-       <section id="Contacto">
-           <form action="">
+       <section id="Contacto" class="contact">
+           <form action="" class="form-email">
                <h3>¿Creamos algo juntos?</h3>
                <label for="email">Déjame tu email</label>
                <input type="text" placeholder="Déjame tu email" id="email">      
@@ -71,6 +75,6 @@
                <button>Enviar</button>
            </form>
        </section>
-       <footer>Footer</footer>
+       <footer class="footer">Footer</footer>
     </body>
 </html>
