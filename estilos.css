@@ -13,6 +13,7 @@ Selector de id
 } */
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
 }
 h1,
 h2,
@@ -40,10 +41,16 @@ h1 strong {
     background-repeat: no-repeat;
     background-position-x: right;
 }
+.portfolio {
+    background-color: #fafafa;
+}
 .project {
     border: 1px solid gray;
     border-radius: 10px;
+    margin: 10px;
     margin-bottom: 15px;
+    padding: 20px;
+    background-color: white;
 }
 .project-details {
     width: 500px;
