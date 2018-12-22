@@ -28,3 +28,12 @@ h1 {
     line-height: 1.5em;
     letter-spacing: -.2px;
 }
+.hero {
+    height: 300px;
+}
+.project-details {
+    width: 500px;
+}
+.project-imageContainer {
+    width: 500px;
+}
