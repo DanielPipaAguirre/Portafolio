@@ -40,6 +40,10 @@ h1 strong {
     background-repeat: no-repeat;
     background-position-x: right;
 }
+.project {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
 .project-details {
     width: 500px;
 }
