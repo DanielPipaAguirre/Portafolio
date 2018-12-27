@@ -29,6 +29,7 @@ h1 {
     line-height: 1.5em;
     letter-spacing: -.2px;
     color: white;
+    margin: 0px;
 }
 h1 strong {
     color: #026fff;
@@ -40,6 +41,8 @@ h1 strong {
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 .portfolio {
     background-color: #fafafa;
@@ -88,4 +91,14 @@ ol {
     align-items: center;
     height: inherit;
     padding: 0 10px;
+}
+.footer {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer img {
+    vertical-align: middle;
 }
