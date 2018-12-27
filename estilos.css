@@ -37,27 +37,29 @@ h1 strong {
 h2 {
     color: #026fff;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 25px;
     margin-bottom: 40px;
 }
 .hero {
     height: 300px;
-    background-image: url(images/hero.jpeg);
     background-color: #1b2127;
-    background-size: 500px 300px;
-    background-repeat: no-repeat;
-    background-position-x: right;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+.hero-image {
+    object-fit: cover;
+}
+
 .portfolio {
     background-color: #fafafa;
     padding: 20px;
 }
 .project {
     border: 1px solid gray;
+    box-shadow: 8px 8px 1px 0px rgba(0,0,0,0.65);
     border-radius: 10px;
     margin-bottom: 15px;
     padding: 20px;
@@ -98,6 +100,15 @@ h2 {
     justify-content: space-between;
     height: 83px;
 }
+.container {
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    margin: 0 auto;
+    width: 1000px;
+    flex-wrap: inherit;
+}
 figure {
     margin: 0px;
 }
@@ -124,6 +135,7 @@ ol {
 }
 .experience-list {
     display: flex;
+    flex-wrap: wrap;
 }
 .h2-only {
     margin-left: 20px;
@@ -168,7 +180,7 @@ ol {
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 5px;
-    border-radius: 25px;
+    border-radius: 15px;
     border-style: solid;
 }
 .form-email button {
@@ -179,10 +191,13 @@ ol {
     padding: 10px 0;
     border-radius: 5px;
     width: 100px;
-    margin-top: 10px;
+    margin-bottom: 15px;
+    border-style: solid;
 }
 .form-email h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 .social-link {
