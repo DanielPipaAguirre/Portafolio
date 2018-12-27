@@ -122,6 +122,36 @@ ol {
     height: inherit;
     padding: 0 10px;
 }
+.experience-list {
+    display: flex;
+}
+.h2-only {
+    margin-left: 20px;
+}
+.experience {
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #f4fbff;
+}
+.experience-detail {
+    margin: 20px 40px;
+    margin-top: -40px;
+    background: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+.experience-description {
+    text-align: left;
+}
+.experience img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
 .footer {
     background-color: #1b2127;
     color: white;
