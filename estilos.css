@@ -48,6 +48,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .hero-image {
     object-fit: cover;
@@ -67,6 +68,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .project-title {
     font-size: 30px;
@@ -99,6 +101,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     height: 83px;
+    flex-wrap: wrap;
 }
 .container {
     display: inherit;
@@ -106,11 +109,14 @@ h2 {
     align-items: inherit;
     height: inherit;
     margin: 0 auto;
-    width: 1000px;
+    max-width: 1000px;
     flex-wrap: inherit;
+    flex: 1;
 }
 figure {
     margin: 0px;
+    display: inherit;
+    align-items: center;
 }
 .menu {
     height: inherit;
@@ -170,7 +176,8 @@ ol {
     height: 150px;
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .form-email input {
     border-color: gray;
@@ -225,7 +232,33 @@ ol {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .footer img {
     vertical-align: middle;
+}
+@media screen and (max-width: 1024px) {
+    
+}
+@media screen and (max-width: 767px) {
+   .header {
+       display: block;
+       height: auto;
+   }
+   .header ol {
+       display: initial;
+   }
+   .header ol li {
+       height: 50px;
+       text-align: center;
+   }
+   .header a {
+       display: initial;
+   }
+}
+@media screen and (max-width: 480px) {
+    
+}
+@media screen and (max-width: 320px) {
+    
 }
