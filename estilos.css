@@ -241,12 +241,44 @@ ol {
 .footer img {
     vertical-align: middle;
 }
+.video {
+    width: 100%;
+    height: auto;
+}
 @media screen and (max-width: 1024px) {
     .container {
         padding: 0 1em;
     }
+    .hero {
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2.5em;
+   }
+   .hero-image {
+        position: absolute;
+        z-index: 1;
+        top:0;
+        bottom:0;
+        left: 0;
+        right: 0;
+        width: 100%;
+   }
+   h1 {
+       font-size: 2.5em;
+        z-index: 2;
+   }
+   h2 {
+       font-size: 1.5em;
+   }
 }
 @media screen and (max-width: 767px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
    .header {
        display: block;
        height: auto;
@@ -295,6 +327,12 @@ ol {
    }
 }
 @media screen and (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
     .project-details {
         font-size: 12px;
     }
@@ -321,5 +359,14 @@ ol {
     }
 }
 @media screen and (max-width: 320px) {
-    
+    h1{
+        font-size: 1.5em;
+        
+    }
+    h2 {
+        font-size: 1em;
+    }
+    .hero{
+        padding: 2em 1em;
+    }
 }
