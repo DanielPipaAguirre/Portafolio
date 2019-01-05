@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <i class="icon-menu burger"></i>
+    <i class="icon-menu burger" id="burger-menu"></i>
     <header class="header">
         <div class="container">
             <!--Logo-->
@@ -171,5 +171,24 @@
             </div> 
         </div> 
     </footer> 
+    <script>
+        // Seleccionamos nuestro menu 
+        const menu = document.querySelector('.menu');
+        console.log(menu);
+        // Seleccionamos nuestro menu de hamburguesa
+        const burgerButton = document.querySelector('#burger-menu');
+        console.log(burgerButton);
+        // Esperamos a que le den un click a nuestro menu de hamburguesa
+        burgerButton.addEventListener('click', hidenShow);
+        function hidenShow(){
+            // Si menu tiene esta clase
+        if (menu.classList.contains('active')){
+            menu.classList.remove('active');
+            }else{
+            // mostramos nuestro menu
+            menu.classList.add('active');
+            }
+        }
+    </script>
 </body> 
 </html>

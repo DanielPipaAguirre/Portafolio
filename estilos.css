@@ -371,7 +371,7 @@ ol {
        justify-content: center;
        transition: .3s;
    }
-   .menu.is-active {  
+   .menu.active {  
        left: 0;
    }
    .project {
